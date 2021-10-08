@@ -10,11 +10,13 @@
   height: 0;
 }
 
+body{ color: #f8f8f8; font-family: ‘Raleway’,sans-serif; font-size: 18px; font-weight: 500; line-height: 32px; text-align: justify;}
+
 h1 { color: #ffffff; font-family: ‘Raleway’,sans-serif; font-size: 62px; font-weight: 550; line-height: 72px; margin: 0 0 24px; text-align: left; }
 
 h2 { color: #ffffff; font-family: ‘Raleway’,sans-serif; font-size: 30px; font-weight: 550; line-height: 36px; margin: 0 0 24px; text-align: left; }
 
-p { color: #f8f8f8; font-family: ‘Raleway’,sans-serif; font-size: 18px; font-weight: 500; line-height: 32px; margin: 0 0 24px; }
+p { color: #f8f8f8; font-family: ‘Raleway’,sans-serif; font-size: 18px; font-weight: 500; line-height: 32px; margin: 0 0 24px; text-align: justify;}
 
 a { color: #c8c8c8; text-decoration: underline; }
 
@@ -51,7 +53,7 @@ a:hover { color: #1c1c1c; text-decoration: underline; }
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-margin: 0 24px 0;
+    margin: 0 24px 0;
 }
 
 /* Links inside the dropdown */
@@ -68,6 +70,8 @@ margin: 0 24px 0;
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
 background-color: rgb(180,0,180); 
+
+    border-radius: 15px;
 }
 
 /* Show the dropdown menu on hover */
@@ -83,28 +87,13 @@ background-color: rgb(180,0,180);
 </head>
 
 
-<body style="background: linear-gradient(to bottom right, midnightblue, indigo) no-repeat;">
+<body style="background: linear-gradient(to bottom right, midnightblue, indigo) no-repeat; margin:0 20px">
 <div class="main" style="display: flex; flex-wrap: wrap">
 
 <div class="break"></div>
-<h1>Я Денис</h1>
-<div class="dropdown" style="margin:0 0 0">
-  <button class="dropbtn">Мои соцсети</button>
-  <div class="dropdown-content">
-    <a href="https://www.instagram.com/_den_dudko_/">Инста</a>
-    <a href="https://vk.com/pochtizozh">Вк</a>
-  </div>
-</div>
+<h1>Приветствую зашедшего!</h1>
 <div class="break"></div>
-<h2>Студент третьего <br> курса прогина</h2>
-<div class="break"></div>
-<p style="padding: 7px; border-radius: 15px; background-color: rgba(255, 255, 255, 0.3);">С фантазией беда, поэтому буду напихивать сюда все, что придет в голову по мере разработки:)
-<br>
-Фавикон позаимствовал <a href="https://ru.stackoverflow.com/">отсюда</a>
-<br>
-Знаю <a href="https://vk.com/vodovskoff">человека</a> с любимым "семейным" фильмом "Груз 200", возможно, ему нужна психологическая помощь
-</p>
-<div class="break"></div>
+
 <div id="ascii-image">
 <pre title="С масштабированием плохеет:(">                                                                                                              
                                                                                                               
@@ -197,13 +186,50 @@ MMMMMM#MM#MMMMMMMMMMMMMMMMMMMMMMMMMMBMMBMMMMMMBMMMBBMBBMBBBMBBMMBBBBBBBMBMBBMMMB
 MM#MMM#MM#MMBMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMBMMMMMBMBBBMBBBMMMBBMMBBBBMMBMMMMBMMMMMMMMMMMMMMMBMMMMMBMMMM##
 </pre>
 </div>
-<div class="break"></div>
-<p>Вот моя фоточка, сделать такую можно <a href="http://ascii-art-generator.ru/">здесь</a></p>
+
+<div class="dropdown" style="margin:0 0 0;">
+  <button class="dropbtn" style="border-radius: 15px">Мои соцсети</button>
+  <div class="dropdown-content" style="border-radius: 15px">
+    <a href="https://www.instagram.com/_den_dudko_/">Инста</a>
+    <a href="https://vk.com/pochtizozh">Вк</a>
+  </div>
 </div>
+<h2 style="margin:17px 0 0 0;">←&nbsp</h2>
+<p style="margin:22px 0 0 0;"> Вот нелепая менюшка</p>
+<div class="break"></div>
+<h2 style="margin:10px 0 0 0;">↑</h2>
+<p style="margin:22px 0 0 0;">Вот своего рода фоточка (сделать такую можно <a href="http://ascii-art-generator.ru/">здесь</a>)</p>
+
+<div class="break"></div>
 <br>
-<p style="padding:0; margin:0;">Как выяснилось, Яндекс Музыка легко встраивается,<br> так что приятного прослушивания:</p>
-<iframe frameborder="0" style="border:none;width:445px;height:100px;margin:0 0 20px;" src="https://music.yandex.ru/iframe/#track/42553761/5623383">Слушайте <a href='https://music.yandex.ru/album/5623383/track/42553761'>SICKO MODE</a> — <a href='https://music.yandex.ru/artist/999165'>Travis Scott</a> на Яндекс.Музыке</iframe>
-<hr>
+<h2>Зовут меня Денис</h2> 
+<div class="break"></div>
+
+<ul style="padding:7px 7px 7px 20px; border-radius: 15px; background-color: rgba(255, 255, 255, 0.3); width:587px">
+<li>Я являюсь студентом Школы Естественных Наук (теперь почему-то ИМКТ) ДВФУ, а именно, прикладываю усилия, чтобы удержаться на третьем курсе программной инженерии.</li>
+<li>Рад представить Вам мою страничку, доказывающую, что какая-то часть материала Сетевых и Интернет Технологий не прошла мимо меня.</li>
+<li>С фантазией беда, поэтому буду напихивать сюда все, что придет в голову по мере разработки:)</li>
+<li>Зачем здесь список? Очевидно - ради лишних тэгов.</li>
+<div class="break"></div>
+</ul>
+
+<div class="break"></div>
+<p style="padding: 7px; border-radius: 15px; background-color: rgba(255, 255, 255, 0.3); width:600px">
+Фавикон нагло украл <a href="https://ru.stackoverflow.com/">отсюда</a>.
+</p>
+<div class="break"></div>
+<p style="padding: 7px; border-radius: 15px; background-color: rgba(255, 255, 255, 0.3); width:600px">
+Как выяснилось, Яндекс Музыка легко встраивается, а идеи легко заимствуются, так что приятного прослушивания:</p>
+<div class="break"></div>
+
+<iframe frameborder="0" style="border:none; border-radius:15px; width:614px; height:100px; margin:0 0 20px;" src="https://music.yandex.ru/iframe/#track/42553761/5623383">Слушайте <a href='https://music.yandex.ru/album/5623383/track/42553761'>SICKO MODE</a> — <a href='https://music.yandex.ru/artist/999165'>Travis Scott</a> на Яндекс.Музыке</iframe>
+
+<div class="break"></div>
+<p style="padding: 7px; border-radius: 15px; background-color: rgba(255, 255, 255, 0.3); width:600px">
+Кстати, выше меня в табличке заданий находится <a href="https://vk.com/vodovskoff">любитель</a> фильма "Груз 200", который никак не устанет продвигать это произведение Балабанова в массы, возможно ему нужна психологическая помощь.</p>
+<div class="break"></div>
+
+<hr style="width:100%">
 <footer>
     <p style="font-size: 16px; margin:0 0 0;">© Дудко Денис</p>
 </footer>
